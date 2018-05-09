@@ -42,5 +42,13 @@ public class SQL {
 	//	where DATEDIFF(w2.Date, w1.Date) = 1 AND
 	//	      w2.Temperature > w1.Temperature
 	
+	//************************************
+	//Big Countries
+	//Select name, population, area from World where area > 3000000 or population > 25000000
+	
+	//************************************
+	//Classes more than 5 students
+	//select class from courses group by class having count(distinct student) >= 5
+	
 		
 }
