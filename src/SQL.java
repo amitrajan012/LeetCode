@@ -50,5 +50,17 @@ public class SQL {
 	//Classes more than 5 students
 	//select class from courses group by class having count(distinct student) >= 5
 	
+	//************************************
+	//Not Boring Movies
+	//select * from cinema where (id % 2 = 1) and description != "boring" order by rating desc
+	
+	//************************************
+	//Swap Salary
+	//update salary
+	//set sex = case WHEN sex = 'm' THEN 'f'
+    //        WHEN sex = 'f' THEN 'm'
+    //  END
+	//WHERE sex IN ('m','f')
+	
 		
 }
