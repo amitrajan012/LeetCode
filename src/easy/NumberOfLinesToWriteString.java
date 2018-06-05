@@ -12,7 +12,7 @@ public class NumberOfLinesToWriteString {
 		if(S.length() == 0) return res;
 		int lines = 1, len = 0; //Line 1 has started
 		for(char c: S.toCharArray()) {
-			if(100-len < widths[c-97]) {
+			if(100-len >= widths[c-97]) {
 				//Space left in current line
 				len += widths[c-97];
 			}else {
