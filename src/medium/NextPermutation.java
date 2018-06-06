@@ -31,8 +31,6 @@ public class NextPermutation {
 			nums[firstIndex] = temp;
 			reverse(nums, firstIndex+1, nums.length-1);
 		}
-		
-		
     }
 
 	private void reverse(int[] nums, int start, int end) {
