@@ -32,7 +32,7 @@ public class CompareVersionNumber {
 		}else {
 			for(int i=v1.length;i<v2.length;i++) {
 				if(Integer.parseInt(v2[i]) != 0) {
-					return 1;
+					return -1;
 				}
 			}
 			return 0;
