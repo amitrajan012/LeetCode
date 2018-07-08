@@ -5,7 +5,8 @@ package medium;
 public class MagicalString {
     public int magicalString(int n) {
     		//Base case
-    		if(n<=3) return 1;
+    		if(n==0) return 0;
+    		if(n == 1 || n == 2) return 1;
     		
     		StringBuilder sb = new StringBuilder("122");
     		int index = 2, count = 1;
