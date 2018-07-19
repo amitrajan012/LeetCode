@@ -22,8 +22,6 @@ public class MaxIncreaseToKeepCitySkyline {
         			res += (Math.min(side[i], top[j]) - grid[i][j]);
         		}
         }
-        System.out.println(top);
-        System.out.println(side);
     		return res;
     }
 }
