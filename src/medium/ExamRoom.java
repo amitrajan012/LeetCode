@@ -20,7 +20,7 @@ class ExamRoom {
     			seat = 0;
 		}else {
     			int S = -1, gap = Integer.MIN_VALUE;
-    			int previousSeat = set.pollFirst();
+    			int previousSeat = set.first();
     			if(previousSeat != 0) {
     				S = 0;
     				gap = previousSeat-1;
